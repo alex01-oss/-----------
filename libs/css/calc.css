@@ -1,0 +1,44 @@
+* {
+  font: 25pt cursive;
+}
+
+body {
+  background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706) fixed;
+  margin: 5px;
+  user-select: none;
+}
+
+.container {
+  background: #444;
+  width: 400px;
+  margin: auto;
+  border: 5px solid #444;
+  border-radius: 15px;
+}
+
+.child {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+input, button {
+  color: white;
+  background: #353535;
+  width: 382px;
+  height: 95px;
+  border-radius: 10px;
+  margin: 5px;
+  outline: none;
+}
+
+button:hover {
+  transition: .1s;
+  background: #2D2D2D;
+  transform: scale(1.025);
+}
+
+input {
+  text-align: right;
+}
